@@ -16,3 +16,5 @@ build/
 *.avif
 *.webp
 output*/
+graphify-out
+.graphifyignore
