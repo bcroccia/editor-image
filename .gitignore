@@ -18,3 +18,7 @@ build/
 output*/
 graphify-out
 .graphifyignore
+web/out/
+**/web/out/
+docker-compose.yml
+*.log

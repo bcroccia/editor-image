@@ -1,0 +1,25 @@
+{
+  "service_name": "editor_image",
+  "service_id": "b6870db6-dee8-45d5-9d24-049a8decdd4c",
+  "display_name": "Editor Image",
+  "description": "AI Image Processing & Background Removal",
+  "supabase_url": "https://supabase.buautomate.com",
+  "stripe": {
+    "product_id": "prod_UK8D1gf8xoHT8Y",
+    "prices": { "basic": "price_1TLTxWG4HZvgaa3wGUhwulSq", "pro": "price_1TLTxXG4HZvgaa3wEwqm8jEJ", "ultra": "price_1TLTxXG4HZvgaa3wRRRZGicc" }
+  },
+  "integration": {
+    "signup": "supabase.auth.signUp({ options: { data: { service: 'editor_image' } } })",
+    "credits": "supabase.rpc('get_my_credits', { p_service_name: 'editor_image' })",
+    "debit": "supabase.rpc('debit_credits', { p_user_id, p_service_name: 'editor_image', p_amount, p_reference_id })",
+    "activate": "supabase.rpc('activate_service', { p_service_name: 'editor_image' })"
+  },
+  "env_template": {
+    "NEXT_PUBLIC_SUPABASE_URL": "https://supabase.buautomate.com",
+    "NEXT_PUBLIC_SERVICE_NAME": "editor_image",
+    "STRIPE_PRICE_BASIC": "price_1TLTxWG4HZvgaa3wGUhwulSq",
+    "STRIPE_PRICE_PRO": "price_1TLTxXG4HZvgaa3wEwqm8jEJ",
+    "STRIPE_PRICE_ULTRA": "price_1TLTxXG4HZvgaa3wRRRZGicc"
+  },
+  "registered_at": "2026-04-12T19:46:20Z"
+}
