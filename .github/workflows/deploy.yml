@@ -8,6 +8,7 @@ on:
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
+    environment: okicreator-production
     permissions:
       contents: read
       packages: write
@@ -33,6 +34,7 @@ jobs:
   deploy:
     needs: build-and-push
     runs-on: ubuntu-latest
+    environment: okicreator-production
     steps:
       - name: Deploy to Swarm
         uses: appleboy/ssh-action@v1.0.3
