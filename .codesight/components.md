@@ -1,6 +1,8 @@
 # Components
 
 - **App** — `image-service/image-service-ref.jsx`
+- **AuthCallbackPage** [client] — `image-service/web/src/app/auth/callback/page.tsx`
+- **DashboardPage** [client] — `image-service/web/src/app/dashboard/page.tsx`
 - **RootLayout** — `image-service/web/src/app/layout.tsx`
 - **Page** [client] — `image-service/web/src/app/page.tsx`
 - **AuthProviderWrapper** [client] — `image-service/web/src/components/auth-provider-wrapper.tsx`
