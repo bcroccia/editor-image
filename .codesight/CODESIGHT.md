@@ -3,9 +3,9 @@
 > **Stack:** fastapi, next-app | none | react | typescript
 > **Monorepo:** image-service, web
 
-> 5 routes | 0 models | 14 components | 4 lib files | 3 env vars | 2 middleware | 4 events | 20% test coverage
-> **Token savings:** this file is ~1,200 tokens. Without it, AI exploration would cost ~15,500 tokens. **Saves ~14,300 tokens per conversation.**
-> **Last scanned:** 2026-04-14 14:00 — re-run after significant changes
+> 5 routes | 0 models | 16 components | 4 lib files | 3 env vars | 2 middleware | 4 events | 20% test coverage
+> **Token savings:** this file is ~1,200 tokens. Without it, AI exploration would cost ~16,100 tokens. **Saves ~14,900 tokens per conversation.**
+> **Last scanned:** 2026-06-16 16:31 — re-run after significant changes
 
 ---
 
@@ -22,6 +22,8 @@
 # Components
 
 - **App** — `image-service/image-service-ref.jsx`
+- **AuthCallbackPage** [client] — `image-service/web/src/app/auth/callback/page.tsx`
+- **DashboardPage** [client] — `image-service/web/src/app/dashboard/page.tsx`
 - **RootLayout** — `image-service/web/src/app/layout.tsx`
 - **Page** [client] — `image-service/web/src/app/page.tsx`
 - **AuthProviderWrapper** [client] — `image-service/web/src/components/auth-provider-wrapper.tsx`
